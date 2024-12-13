@@ -16,6 +16,8 @@ magazine = [];
   situation = false
   frameRate(60)
   mult = 1
+  
+  
  
   upgrades = ["RELOAD","VELOCITY","INVINCIBILITY","AMMO","SHOT SPEED","NUKE","FIRERATE"]
   upg = 0
@@ -124,6 +126,7 @@ function draw() {
         tickInc = 1.25
         invMax = 60
         mult = 0.75
+        numOpps = 1
       }
     }
       if(mouseY>400&&mouseY<500){
@@ -139,6 +142,7 @@ function draw() {
         tickInc = 1
         invMax = 50
         mult = 1
+        numOpps = 2
       }
     }
       if(mouseY>550&&mouseY<650){
@@ -155,6 +159,7 @@ function draw() {
         tickInc = 0.75
         invMax = 40
         mult = 1.5
+        numOpps = 4
       }
     }
     }
