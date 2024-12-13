@@ -126,7 +126,7 @@ function draw() {
         tickInc = 1.25
         invMax = 60
         mult = 0.75
-        numOpps = 2
+        numOpps = 1
       }
     }
       if(mouseY>400&&mouseY<500){
@@ -142,7 +142,7 @@ function draw() {
         tickInc = 1
         invMax = 50
         mult = 1
-        numOpps = 3
+        numOpps = 2
       }
     }
       if(mouseY>550&&mouseY<650){
