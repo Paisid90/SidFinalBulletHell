@@ -350,7 +350,7 @@ function gameRunner(){
   sec = millis()-starttime
   lowerLimitBase = lowerLimit *pow(0.99,score)
   upperLimitBase = upperLimit * pow(0.99,score)
-  if (oppsInc == numOpps*1.5){
+  if (oppsInc > numOpps*1.7){
     oppsInc = 0
     numOpps ++
   }
